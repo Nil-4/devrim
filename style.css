@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+:root {
+background-color: #CEF6F3;
+--black-color: #0e0e0e;
+--border: 0.1rem solid rgba(255,255,255,0.4);
+
+
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: 0.2s ease;
+    margin-right: 1rem;
+}
+
+ html{
+ 	font-size: 62.5%;
+ 	overflow-x: hidden;
+ 	scroll-padding-top:9rem ;
+ 	scroll-behavior: smooth;
+ }
+body{
+	background-color: var(background-color);
+	height: 200vh;m;
+}
+section{
+	padding: 3.5rem 7%;
+}
+.btn{
+	margin-top: 1rem;
+	display: inline-block;
+	padding: 1rem 2.75rem;
+	border-radius: 30re
+	font-size: 1.5rem;
+	color: whitesmoke;
+	background-color: black;
+	cursor: pointer;
+}
+
+.logo img {
+	height: 7rem;
+
+}
+
+.header .logo img{
+
+	height: 10rem;
+
+}
+.header{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 7½;
+	margin: 3rem 7%;
+	border-radius: 30rem;
+	box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+	margin-left:17rem;
+}
+.header .navbar a{
+	margin: 0 1 rem;
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: var(--black-color);
+}
+.header .buttons button {
+	cursor: pointer;
+	font-size: 2.5rem;
+	margin-left: 2rem;
+	background-color: transparent;
+	border-radius:4rem;
+}
+.home{
+min-height: 100vh;
+
+}
+
+.home .content{
+
+	max-width: 60rem;
+}
+
+.home .content h3{ 
+
+font-size: 4.5rem;
+margin-top:-13rem;
+color: whitesmoke;
+
+}
+.home .content p{ 
+
+font-size:1.5rem;
+font-weight: 300;
+line-height: 1.8;
+padding: 1rem 0;
+color: smoky;
+}
+
+
+.box{
+	width: 90%; 
+	height: 90%;
+}
+ .box img{
+ 	background-size: cover;
+ 	background-position:center ;
+ 	margin-top: -33rem;
+ 	margin-right: -40rem;
+ 	margin-left: -10rem;
+
+ }
+
+.Araçlar .box-container .box img{
+float:left;
+margin:2.5rem;
+padding: %100;
+width: 30rem;
+height: 30rem;
+background: #ff5555;
+margin-left: 5rem;
+border-radius:2rem;
+margin-top: -1rem;
+border-color: red;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Araçlar .box-container1 .box img{
+float:left;
+margin:2.5rem;
+padding: %100;
+width: 30rem;
+height: 30rem;
+background: #ff5555;
+margin-left: 70rem;
+margin-top: -33rem;
+border-radius:2rem;
+border-color: red;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Araçlar .box-container2 .box img{
+float:left;
+margin:2.5rem;
+padding: %100;
+width: 30rem;
+height: 30rem;
+background: #ff5555;
+margin-left: 5rem;
+margin-top: 7rem;
+border-radius:2rem;
+border-color: red;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Araçlar .box-container3 .box img{
+float:left;
+margin:2.5rem;
+padding: %100;
+width: 30rem;
+height: 30rem;
+background: #ff5555;
+margin-left: 70rem;
+margin-top: -33rem;
+border-radius:2rem;
+border-color: red;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1-1{
+	font-size:4rem;
+	margin-left: 15rem;
+	margin-top: -15rem;
+	font-weight: bold;
+}
+.hak{
+	margin-top: 10rem;
+	font-size:4rem;
+	margin-left: 15rem;
+    font-weight: bold;
+}
+
+.baslik {
+display: flex;
+text-align:center;
+flex: 1;
+font-size: 2rem;
+background-color: whitesmoke;
+margin-right: -2rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 7rem;
+margin-top: 4rem;
+}
+
+
+.footer{
+	background-color: whitesmoke;
+	border-radius: 7rem;
+	margin-top: 2rem;
+	margin-left: 4rem;
+
+}
+.footer a{
+	margin-left: 15rem;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 75.5%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.container1 {
+  position: relative;
+  width: 50%;
+  margin-left: 65rem;
+  margin-top: -23.75rem;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+.container2 {
+  position: relative;
+  width: 50%;
+  margin-left:65rem;
+  margin-top: 6rem;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.container3 {
+  position: relative;
+  width: 50%;
+  margin-top: -25rem;
+}
+
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container3:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
